@@ -17,15 +17,50 @@
 
 <body>
     <header>
-        <img src="/assets/html_css_js.png">
-        <h1>Web App</h1>
+        <h1>Trio Builder</h1>
     </header>
 
     <main>
+        <section class="format" id="dropdown">
+            <select id="horn-dropdown">
+                <option value="french-horn">French horn</option>
+                <option value="alphorn">Alphorn</option>
+                <option value="rams-horn">Rams horn</option>
+                <option value="sand-horn">Sand horn</option>
+            </select>
+            <select id="keyboard-dropdown">
+                <option value="electric-keyboard">Electric keyboard</option>
+                <option value="melodica">Melodica</option>
+                <option value="broken-keyboard">Broken Keyboard</option>
+                <option value="typewriter">Typewriter</option>
+            </select>
+            <select id="singer-dropdown">
+                <option value="kazoo-singer">Kazoo</option>
+                <option value="sewing-singer">Sewing singer</option>
+                <option value="lynx-singer">Lynx singer</option>
+                <option value="prairie-dog-singer">Prairie Singer</option>
+        </select>
+        </section>
+        <section>
+            <p id="times-changed"></p>
+        </section>
+        <section id="images">
+            <img id="horn-image" />
+            <img id="keyboard-image" />
+            <img id="singer-image" />
+        </section>
+        <div class = "slogan-format">
+        <input class="format"  id="slogan-input" />
+        <button class="format" id="slogan-button">Add your slogan</button>
+        <h2>Slogans:</h2>
+        </div>
+        <div class="format" id="slogans">
+
+        </div>
 
     </main>
 
-    <footer>&copy;2022 Software Developer</footer>
+    <footer>&copy;2022 Dovahteam Software</footer>
 
     <script type="module" src="app.js"></script>
 </body>
