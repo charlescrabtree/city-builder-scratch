@@ -17,17 +17,16 @@
 
 <body>
     <header>
-        <img src="/assets/html_css_js.png">
         <h1>Trio Builder</h1>
     </header>
 
     <main>
-        <section>
+        <section class="format" id="dropdown">
             <select id="horn-dropdown">
                 <option value="french-horn">French horn</option>
                 <option value="alphorn">Alphorn</option>
-                <option id="rams-horn">Rams horn</option>
-                <option id="sand-horn">Sand horn</option>
+                <option value="rams-horn">Rams horn</option>
+                <option value="sand-horn">Sand horn</option>
             </select>
             <select id="keyboard-dropdown">
                 <option value="electric-keyboard">Electric keyboard</option>
@@ -45,16 +44,17 @@
         <section>
             <p id="times-changed"></p>
         </section>
-        <section>
+        <section id="images">
             <img id="horn-image" />
             <img id="keyboard-image" />
             <img id="singer-image" />
         </section>
-
-        <input  id="slogan-input" />
-        <button id="slogan-button">Add your slogan</button>
+        <div class = "slogan-format">
+        <input class="format"  id="slogan-input" />
+        <button class="format" id="slogan-button">Add your slogan</button>
         <h2>Slogans:</h2>
-        <div id="slogans">
+        </div>
+        <div class="format" id="slogans">
 
         </div>
 
